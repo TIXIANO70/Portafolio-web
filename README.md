@@ -24,25 +24,4 @@ portfolio/
 └── assets/
     └── cv/
         └── CV_Tiziano_Espinoza.pdf  # Archivo del CV para descargar
-```
-
-## Desarrollo Local
-
-Para previsualizar el sitio en tu computadora, podés utilizar cualquier servidor local. Si tenés Python instalado, simplemente abrí una terminal en esta carpeta y ejecutá:
-
-```bash
-python3 -m http.server 8000
-```
-
-Luego, abrí tu navegador en `http://localhost:8000`.
-
-## Despliegue en GitHub Pages
-
-Este proyecto está 100% listo para ser desplegado en GitHub Pages, ya que es completamente estático.
-
-1.  Creá un nuevo repositorio en GitHub.
-2.  Subí el contenido de esta carpeta (`portfolio/`) a la rama `main` del repositorio.
-3.  Andá a **Settings** > **Pages**.
-4.  En "Build and deployment", asegurate de que "Source" esté en **Deploy from a branch**.
-5.  Elegí la rama `main` (o la que uses) y la carpeta `/(root)`.
-6.  Hacé clic en **Save**. ¡Y listo! Tu portfolio estará disponible en `https://tu-usuario.github.io/tu-repo/`.
+````

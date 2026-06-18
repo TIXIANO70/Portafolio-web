@@ -6,6 +6,18 @@ document.addEventListener('DOMContentLoaded', () => {
         yearSpan.textContent = new Date().getFullYear();
     }
 
+    // --- Email obfuscation (anti-scraper) ---
+    // The email is split into parts and assembled at runtime.
+    // A static scraper that doesn't execute JS cannot read the full address.
+    const emailParts = ['espinozatiziano', '3007', '@', 'gmail', '.', 'com'];
+    const emailAddress = emailParts.join('');
+    const emailBtn = document.getElementById('email-contact-btn');
+    const emailDisplay = document.getElementById('email-display');
+    if (emailBtn && emailDisplay) {
+        emailBtn.href = 'mailto:' + emailAddress;
+        emailDisplay.textContent = emailAddress;
+    }
+
     // --- Mobile Navigation Toggle ---
     const mobileToggle = document.querySelector('.mobile-toggle');
     const navLinks = document.querySelector('.nav-links');

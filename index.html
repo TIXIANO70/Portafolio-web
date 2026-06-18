@@ -39,6 +39,7 @@
                     <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
                     <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
                     <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="#habilidades-blandas" class="nav-link">Blandas</a></li>
                     <li><a href="#contacto" class="nav-link">Contacto</a></li>
                 </ul>
                 <button class="mobile-toggle" aria-label="Abrir menú">
@@ -102,6 +103,8 @@
                         <div class="skill-badge"><i class="devicon-css3-plain colored"></i> CSS</div>
                         <div class="skill-badge"><i class="devicon-mysql-plain colored"></i> SQL</div>
                         <div class="skill-badge"><i class="devicon-mariadb-original colored"></i> MariaDB</div>
+                        <div class="skill-badge"><i class="devicon-linux-plain"></i> Linux</div>
+                        <div class="skill-badge"><i class="devicon-archlinux-plain colored"></i> Arch Linux</div>
                     </div>
                 </div>
                 
@@ -191,6 +194,36 @@
             </div>
         </section>
 
+        <!-- Soft Skills Section -->
+        <section id="habilidades-blandas" class="soft-skills section-reveal">
+            <div class="section-header">
+                <h2><i class="ph-duotone ph-brain"></i> Habilidades blandas</h2>
+            </div>
+            <div class="skill-badges soft-skill-badges">
+                <div class="skill-badge">
+                    <i class="ph-duotone ph-rows"></i> Organización
+                </div>
+                <div class="skill-badge">
+                    <i class="ph-duotone ph-medal"></i> Autodisciplina
+                </div>
+                <div class="skill-badge">
+                    <i class="ph-duotone ph-clock"></i> Gestión del tiempo
+                </div>
+                <div class="skill-badge">
+                    <i class="ph-duotone ph-git-fork"></i> Toma de decisiones
+                </div>
+                <div class="skill-badge">
+                    <i class="ph-duotone ph-wrench"></i> Resolución de problemas
+                </div>
+                <div class="skill-badge">
+                    <i class="ph-duotone ph-users-three"></i> Trabajo en equipo
+                </div>
+                <div class="skill-badge">
+                    <i class="ph-duotone ph-chat-circle-dots"></i> Comunicación
+                </div>
+            </div>
+        </section>
+
         <!-- Contact Section -->
         <section id="contacto" class="contact section-reveal">
             <div class="section-header">
@@ -199,9 +232,10 @@
             <div class="contact-content glass-panel">
                 <p class="contact-text">¿Te interesa mi perfil o querés charlar sobre algún proyecto? ¡Hablemos!</p>
                 <div class="contact-links">
-                    <a href="mailto:espinozatiziano3007@gmail.com" class="contact-btn">
+                    <!-- Email link is built by script.js to avoid simple scraping -->
+                    <a id="email-contact-btn" class="contact-btn" href="#">
                         <i class="ph-bold ph-envelope"></i>
-                        <span>espinozatiziano3007@gmail.com</span>
+                        <span id="email-display">Cargando...</span>
                     </a>
                     <a href="https://www.linkedin.com/in/tiziano-espinoza-rodriguez-b551283a3/" target="_blank" rel="noopener noreferrer" class="contact-btn">
                         <i class="ph-bold ph-linkedin-logo"></i>
@@ -215,7 +249,7 @@
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <p>&copy; <span id="current-year"></span> Tiziano Espinoza. Creado con esfuerzo y ☕.</p>
+            <p>&copy; <span id="current-year"></span> Tiziano Espinoza. Creado con esfuerzo y mate 🧉.</p>
             <a href="assets/cv/CV_Tiziano_Espinoza.pdf" target="_blank" rel="noopener noreferrer" class="footer-link">
                 Descargar CV
             </a>

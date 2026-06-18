@@ -390,8 +390,22 @@ section {
 }
 
 /* =========================================
-   Projects Section
+   Soft Skills Section
    ========================================= */
+.soft-skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.soft-skill-badges .skill-badge i {
+    font-size: 1.4rem;
+    color: var(--color-accent);
+}
+
+/* =========================================
+   Projects Section
+   =========================================*/
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
