@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiziano Espinoza | Desarrollador Full Stack</title>
+    <meta name="description" content="Portfolio de Tiziano Espinoza, Técnico en Computación y Desarrollador Full Stack.">
+    <meta property="og:title" content="Tiziano Espinoza | Portfolio">
+    <meta property="og:description" content="Técnico en Computación y Desarrollador Full Stack.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Devicon (for tech stack icons) -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    
+    <!-- Phosphor Icons (for UI icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Canvas for Particles -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#inicio" class="logo">
+                    <i class="ph-bold ph-code"></i> TE.
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+                    <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <button class="mobile-toggle" aria-label="Abrir menú">
+                    <i class="ph-bold ph-list"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero section-reveal">
+            <div class="hero-content">
+                <div class="avatar-container">
+                    <div class="avatar-shape">
+                        <i class="ph-duotone ph-terminal-window"></i>
+                    </div>
+                </div>
+                <h1 class="hero-title">Tiziano Espinoza</h1>
+                <h2 class="hero-subtitle">Técnico en Computación · Desarrollador Full Stack</h2>
+                <p class="hero-tagline">
+                    <i class="ph-fill ph-code-block"></i> Desarrollo Web · HTML · CSS · JavaScript · React · SQL
+                </p>
+                <div class="hero-cta">
+                    <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                    <a href="assets/cv/CV_Tiziano_Espinoza.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                        <i class="ph-bold ph-download-simple"></i> Descargar CV
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="sobre-mi" class="about section-reveal">
+            <div class="section-header">
+                <h2><i class="ph-duotone ph-user"></i> Sobre mí</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-card glass-panel">
+                    <p>
+                        Estudiante de 6.° año de <strong>Técnico en Computación</strong> con experiencia en proyectos de bases de datos, desarrollo web y mantenimiento de hardware. 
+                    </p>
+                    <p>
+                        Me gusta aprender de forma autónoma, entender cómo funcionan las cosas por dentro y encontrar soluciones concretas a problemas reales. Construyo herramientas que automatizan procesos y mejoran la experiencia de los usuarios.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="habilidades" class="skills section-reveal">
+            <div class="section-header">
+                <h2><i class="ph-duotone ph-lightning"></i> Habilidades</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Avanzado -->
+                <div class="skill-category">
+                    <h3>Avanzado</h3>
+                    <div class="skill-badges">
+                        <div class="skill-badge"><i class="devicon-html5-plain colored"></i> HTML</div>
+                        <div class="skill-badge"><i class="devicon-css3-plain colored"></i> CSS</div>
+                        <div class="skill-badge"><i class="devicon-mysql-plain colored"></i> SQL</div>
+                        <div class="skill-badge"><i class="devicon-mariadb-original colored"></i> MariaDB</div>
+                    </div>
+                </div>
+                
+                <!-- Intermedio -->
+                <div class="skill-category">
+                    <h3>Intermedio</h3>
+                    <div class="skill-badges">
+                        <div class="skill-badge"><i class="devicon-javascript-plain colored"></i> JavaScript</div>
+                        <div class="skill-badge"><i class="devicon-react-original colored"></i> React</div>
+                        <div class="skill-badge"><i class="devicon-git-plain colored"></i> Git</div>
+                        <div class="skill-badge"><i class="devicon-github-original"></i> GitHub</div>
+                        <div class="skill-badge"><i class="devicon-java-plain colored"></i> Java</div>
+                        <div class="skill-badge"><i class="devicon-bash-plain"></i> Bash</div>
+                        <div class="skill-badge"><i class="devicon-python-plain colored"></i> Python</div>
+                        <div class="skill-badge"><i class="devicon-notion-plain"></i> Notion</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="proyectos" class="projects section-reveal">
+            <div class="section-header">
+                <h2><i class="ph-duotone ph-briefcase"></i> Proyectos destacados</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: GIE -->
+                <article class="project-card glass-panel">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="ph-duotone ph-files"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Hung-Nicolas/GIE" target="_blank" rel="noopener noreferrer" aria-label="Ver código en GitHub">
+                                <i class="devicon-github-original"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">GIE — Gestión de Informes Escolares</h3>
+                    <p class="project-description">
+                        Proyecto cooperativo para la automatización de informes escolares. Una herramienta pensada para agilizar el trabajo administrativo en entornos educativos.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Desarrollo Web</span>
+                        <span class="tag">Automatización</span>
+                        <span class="tag">Cooperativo</span>
+                    </div>
+                </article>
+
+                <!-- Project 2: Base de Datos -->
+                <article class="project-card glass-panel">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="ph-duotone ph-database"></i>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Base de Datos: Gestión de Alumnos</h3>
+                    <p class="project-description">
+                        Sistema relacional para gestión escolar (alumnos, docentes, faltas y conducta). Incluye consultas avanzadas, vistas, funciones almacenadas, cursores, triggers y control de privilegios por rol de usuario.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">MariaDB</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Stored Procedures</span>
+                        <span class="tag">Triggers</span>
+                    </div>
+                </article>
+
+                <!-- Project 3: Homelab -->
+                <article class="project-card glass-panel">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="ph-duotone ph-hard-drives"></i>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Homelab Casero</h3>
+                    <p class="project-description">
+                        Servidor doméstico autogestionado para virtualización de servicios y despliegue de aplicaciones en un entorno propio y controlado, asegurando privacidad y experimentación continua.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Ubuntu Server</span>
+                        <span class="tag">CasaOS</span>
+                        <span class="tag">Self-Hosting</span>
+                        <span class="tag">Linux</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact section-reveal">
+            <div class="section-header">
+                <h2><i class="ph-duotone ph-envelope-simple"></i> Contacto</h2>
+            </div>
+            <div class="contact-content glass-panel">
+                <p class="contact-text">¿Te interesa mi perfil o querés charlar sobre algún proyecto? ¡Hablemos!</p>
+                <div class="contact-links">
+                    <a href="mailto:espinozatiziano3007@gmail.com" class="contact-btn">
+                        <i class="ph-bold ph-envelope"></i>
+                        <span>espinozatiziano3007@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tiziano-espinoza-rodriguez-b551283a3/" target="_blank" rel="noopener noreferrer" class="contact-btn">
+                        <i class="ph-bold ph-linkedin-logo"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="current-year"></span> Tiziano Espinoza. Creado con esfuerzo y ☕.</p>
+            <a href="assets/cv/CV_Tiziano_Espinoza.pdf" target="_blank" rel="noopener noreferrer" class="footer-link">
+                Descargar CV
+            </a>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
