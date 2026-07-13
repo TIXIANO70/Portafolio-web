@@ -1,0 +1,16 @@
+.aboutSection {
+  padding-top: 80px;
+  margin-bottom: var(--spacing-xl);
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.aboutContent p {
+  font-size: 1.1rem;
+  color: var(--color-text-main);
+  line-height: 1.8;
+}

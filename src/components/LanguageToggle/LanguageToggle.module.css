@@ -1,0 +1,27 @@
+.toggleBtn {
+  background: none;
+  border: none;
+  color: var(--color-text-main);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  transition: all var(--transition-fast);
+  font-family: inherit;
+}
+
+.toggleBtn i {
+  font-size: 1.25rem;
+}
+
+.langText {
+  font-size: 0.9rem;
+}
+
+.toggleBtn:hover {
+  background-color: var(--color-surface);
+  color: var(--color-accent);
+}

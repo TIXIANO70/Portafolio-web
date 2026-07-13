@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "softSkills": "Soft Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Tiziano Espinoza",
+    "subtitle": "Computer Technician · Full Stack Developer",
+    "tagline": "Web Development · HTML · CSS · JavaScript · React · SQL",
+    "viewProjects": "View Projects",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "heading": "About me",
+    "paragraph1": "I am almost a Computer Technician, interested in technology since childhood. My curiosity took me from hardware repair to setting up my own personal homelab with Linux for hosting services with Docker.",
+    "paragraph2": "In programming, I have carried out backend tasks mostly oriented to relational databases and their application in web systems."
+  },
+  "skills": {
+    "heading": "Skills",
+    "advanced": "Advanced",
+    "intermediate": "Intermediate"
+  },
+  "softSkills": {
+    "heading": "Soft Skills",
+    "organization": "Organization",
+    "discipline": "Self-discipline",
+    "timeManagement": "Time Management",
+    "decisionMaking": "Decision Making",
+    "problemSolving": "Problem Solving",
+    "teamwork": "Teamwork",
+    "communication": "Communication"
+  },
+  "projects": {
+    "heading": "Featured Projects",
+    "gie": {
+      "title": "GIE — School Reports Management",
+      "description": "Cooperative project for the automation of school reports. A tool designed to streamline administrative work in educational environments."
+    },
+    "database": {
+      "title": "Database: Student Management",
+      "description": "Relational system for school management (students, teachers, absences and behavior). Includes advanced queries, views, stored functions, cursors, triggers and privilege control by user role."
+    },
+    "homelab": {
+      "title": "Home Homelab",
+      "description": "Self-managed home server for service virtualization and application deployment in its own controlled environment, ensuring privacy and continuous experimentation."
+    }
+  },
+  "contact": {
+    "heading": "Contact",
+    "text": "Are you interested in my profile or want to chat about a project? Let's talk!"
+  },
+  "footer": {
+    "name": "Tiziano Espinoza.",
+    "downloadCV": "Download CV"
+  }
+}

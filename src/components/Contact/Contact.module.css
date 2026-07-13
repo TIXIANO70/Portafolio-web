@@ -1,0 +1,55 @@
+.contactSection {
+  padding-top: 80px;
+  margin-bottom: var(--spacing-xl);
+}
+
+.contactContainer {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.contactContainer h2 {
+  justify-content: center;
+}
+
+.contactText {
+  font-size: 1.2rem;
+  color: var(--color-text-main);
+  margin-bottom: 2rem;
+}
+
+.contactLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.contactBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  color: var(--color-text-main);
+  transition: all var(--transition-normal);
+}
+
+.contactBtn i {
+  font-size: 1.5rem;
+  color: var(--color-accent);
+}
+
+.contactBtn:hover {
+  background-color: var(--color-accent);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+}
+
+.contactBtn:hover i {
+  color: white;
+}

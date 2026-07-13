@@ -1,0 +1,28 @@
+.softSkillsSection {
+  padding-top: 80px;
+  margin-bottom: var(--spacing-xl);
+}
+
+.softSkillsContainer {
+  padding: 2rem;
+}
+
+.softSkillsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.softSkillsList li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.1rem;
+  color: var(--color-text-main);
+  font-weight: 500;
+}
+
+.softSkillsList li i {
+  color: var(--color-accent);
+  font-size: 1.5rem;
+}

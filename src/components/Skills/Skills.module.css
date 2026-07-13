@@ -1,0 +1,37 @@
+.skillsSection {
+  padding-top: 80px;
+  margin-bottom: var(--spacing-xl);
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.skillBadge {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+}
+
+.skillBadge i {
+  font-size: 2.5rem;
+  color: var(--color-accent);
+}
+
+.skillInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillName {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.skillLevel {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}

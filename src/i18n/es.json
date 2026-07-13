@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "softSkills": "Blandas",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Tiziano Espinoza",
+    "subtitle": "Técnico en Computación · Desarrollador Full Stack",
+    "tagline": "Desarrollo Web · HTML · CSS · JavaScript · React · SQL",
+    "viewProjects": "Ver proyectos",
+    "downloadCV": "Descargar CV"
+  },
+  "about": {
+    "heading": "Sobre mí",
+    "paragraph1": "Soy un casi Técnico en Computación, me interesa la tecnología desde niño. Mi curiosidad me llevó desde la reparación de hardware hasta montar mi propio homelab personal con Linux para el hosting de servicios con docker.",
+    "paragraph2": "En la programación, he desempeñado tareas de backend orientadas en su mayor parte a bases de datos relacionales y su aplicación en sistemas web."
+  },
+  "skills": {
+    "heading": "Habilidades",
+    "advanced": "Avanzado",
+    "intermediate": "Intermedio"
+  },
+  "softSkills": {
+    "heading": "Habilidades blandas",
+    "organization": "Organización",
+    "discipline": "Autodisciplina",
+    "timeManagement": "Gestión del tiempo",
+    "decisionMaking": "Toma de decisiones",
+    "problemSolving": "Resolución de problemas",
+    "teamwork": "Trabajo en equipo",
+    "communication": "Comunicación"
+  },
+  "projects": {
+    "heading": "Proyectos destacados",
+    "gie": {
+      "title": "GIE — Gestión de Informes Escolares",
+      "description": "Proyecto cooperativo para la automatización de informes escolares. Una herramienta pensada para agilizar el trabajo administrativo en entornos educativos."
+    },
+    "database": {
+      "title": "Base de Datos: Gestión de Alumnos",
+      "description": "Sistema relacional para gestión escolar (alumnos, docentes, faltas y conducta). Incluye consultas avanzadas, vistas, funciones almacenadas, cursores, triggers y control de privilegios por rol de usuario."
+    },
+    "homelab": {
+      "title": "Homelab Casero",
+      "description": "Servidor doméstico autogestionado para virtualización de servicios y despliegue de aplicaciones en un entorno propio y controlado, asegurando privacidad y experimentación continua."
+    }
+  },
+  "contact": {
+    "heading": "Contacto",
+    "text": "¿Te interesa mi perfil o querés charlar sobre algún proyecto? ¡Hablemos!"
+  },
+  "footer": {
+    "name": "Tiziano Espinoza.",
+    "downloadCV": "Descargar CV"
+  }
+}
