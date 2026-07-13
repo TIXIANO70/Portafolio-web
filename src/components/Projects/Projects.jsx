@@ -11,19 +11,19 @@ export default function Projects() {
     {
       id: 'gie',
       tags: ['React', 'Node.js', 'MySQL'],
-      image: '/assets/projects/gie_preview.jpg',
+      image: 'assets/projects/gie_preview.jpg',
       repoUrl: 'https://github.com/TizianoEspinoza'
     },
     {
       id: 'database',
       tags: ['SQL', 'Relational DB', 'Architecture'],
-      image: '/assets/projects/database_preview.jpg',
+      image: 'assets/projects/database_preview.jpg',
       repoUrl: 'https://github.com/TizianoEspinoza'
     },
     {
       id: 'homelab',
       tags: ['Linux', 'Docker', 'Networking'],
-      image: '/assets/projects/homelab_preview.jpg',
+      image: 'assets/projects/homelab_preview.jpg',
       repoUrl: ''
     }
   ];

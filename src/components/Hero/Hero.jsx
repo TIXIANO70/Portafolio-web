@@ -19,7 +19,7 @@ export default function Hero() {
           <a href="#projects" className={styles.btnPrimary}>
             {t('hero.viewProjects')} <i className="ph-bold ph-arrow-right"></i>
           </a>
-          <a href="/assets/cv/CV_Tiziano_Espinoza.pdf" target="_blank" className={styles.btnSecondary} rel="noopener noreferrer">
+          <a href="assets/cv/CV_Tiziano_Espinoza.pdf" target="_blank" className={styles.btnSecondary} rel="noopener noreferrer">
             <i className="ph-bold ph-download-simple"></i> {t('hero.downloadCV')}
           </a>
         </div>
