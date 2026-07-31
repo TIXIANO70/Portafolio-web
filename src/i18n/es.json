@@ -38,7 +38,7 @@
     "heading": "Proyectos destacados",
     "gie": {
       "title": "GIE — Gestión de Informes Escolares",
-      "description": "Proyecto cooperativo para la automatización de informes escolares. Una herramienta pensada para agilizar el trabajo administrativo en entornos educativos."
+      "description": "Colaboré en un equipo de desarrollo para la creación de GIE (Gestor de Informes Escolares), una aplicación destinada a la administración y seguimiento de informes relacionados con los alumnos. El sistema permite gestionar el historial y la cronología de cada informe, registrar su evolución y controlar la derivación progresiva hacia las distintas autoridades escolares responsables, facilitando la trazabilidad y el seguimiento integral de cada caso."
     },
     "database": {
       "title": "Base de Datos: Gestión de Alumnos",

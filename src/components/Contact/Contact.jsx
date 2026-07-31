@@ -9,7 +9,7 @@ export default function Contact() {
 
   useEffect(() => {
     // Anti-scraping technique
-    const user = "tizianoespinoza11";
+    const user = "espinozatiziano3007";
     const domain = "gmail.com";
     setEmailLink(`mailto:${user}@${domain}`);
 
@@ -43,10 +43,10 @@ export default function Contact() {
           <a href={emailLink} className={styles.contactBtn}>
             <i className="ph-fill ph-envelope"></i> Email
           </a>
-          <a href="https://linkedin.com/in/tiziano-espinoza" target="_blank" rel="noopener noreferrer" className={styles.contactBtn}>
+          <a href="https://www.linkedin.com/in/tiziano-espinoza-rodriguez-b551283a3/" target="_blank" rel="noopener noreferrer" className={styles.contactBtn}>
             <i className="devicon-linkedin-plain"></i> LinkedIn
           </a>
-          <a href="https://github.com/TizianoEspinoza" target="_blank" rel="noopener noreferrer" className={styles.contactBtn}>
+          <a href="https://github.com/TIXIANO70" target="_blank" rel="noopener noreferrer" className={styles.contactBtn}>
             <i className="devicon-github-original"></i> GitHub
           </a>
         </div>

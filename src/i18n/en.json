@@ -38,7 +38,7 @@
     "heading": "Featured Projects",
     "gie": {
       "title": "GIE — School Reports Management",
-      "description": "Cooperative project for the automation of school reports. A tool designed to streamline administrative work in educational environments."
+      "description": "I collaborated in a development team to build GIE (Gestor de Informes Escolares), an application designed for the administration and tracking of student-related reports. The system manages the history and timeline of each report, records its progression, and controls the step-by-step escalation to the different responsible school authorities, facilitating full traceability and comprehensive follow-up of each case."
     },
     "database": {
       "title": "Database: Student Management",
