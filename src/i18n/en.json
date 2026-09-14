@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
+    "education": "Education",
     "skills": "Skills",
     "projects": "Projects",
     "softSkills": "Soft Skills",
@@ -10,14 +11,56 @@
   "hero": {
     "title": "Tiziano Espinoza",
     "subtitle": "Computer Technician · Full Stack Developer",
-    "tagline": "Web Development · HTML · CSS · JavaScript · React · SQL",
+    "tagline": "Web Development · HTML · CSS · JavaScript · React · SQL · Java · Spring Boot",
     "viewProjects": "View Projects",
     "downloadCV": "Download CV"
   },
   "about": {
     "heading": "About me",
-    "paragraph1": "I am almost a Computer Technician, interested in technology since childhood. My curiosity took me from hardware repair to setting up my own personal homelab with Linux for hosting services with Docker.",
-    "paragraph2": "In programming, I have carried out backend tasks mostly oriented to relational databases and their application in web systems."
+    "paragraph1": "I am a 6th-year Computer Technician student, passionate about technology and software development. My curiosity led me from hardware repair and diagnostics to building my own personal Linux homelab for hosting services and containerized environments with Docker.",
+    "paragraph2": "In programming, I specialize in backend development, designing and implementing robust relational database architectures, and engineering modern web systems."
+  },
+  "education": {
+    "heading": "Education & Certifications",
+    "certificationsHeading": "Certifications & Recognitions",
+    "viewCertificate": "View credential",
+    "badges": {
+      "cert": "Certification",
+      "award": "Award"
+    },
+    "school": {
+      "degree": "Computer Technician",
+      "institution": "E.E.S.T. N° 35 «Ing. Eduardo Latzina»",
+      "status": "6th Year · In Progress",
+      "description": "Technical high school education focused on software system design and development, computer architecture, networking, relational database modeling and management, and structured & object-oriented programming.",
+      "tags": [
+        "Software Architecture",
+        "Relational Databases",
+        "Networking & Servers",
+        "OOP",
+        "Web Development"
+      ]
+    },
+    "certs": {
+      "python": {
+        "title": "Python Data Analysis",
+        "issuer": "Student Chapter IEEE ITBA · Globant",
+        "date": "June 2026",
+        "description": "Intensive training in data analysis, Python structures, statistical manipulation, and dataset visualization following industry best practices."
+      },
+      "ai": {
+        "title": "IA-First — Fundamentals of AI",
+        "issuer": "Generación T · Streambe",
+        "date": "July 2026",
+        "description": "Comprehensive foundation in Artificial Intelligence concepts, AI-First paradigms, language models, and their practical application in software engineering."
+      },
+      "aerohack": {
+        "title": "Best Project with Environmental Focus",
+        "issuer": "AeroHack Joven · Fundación Ciencia Joven · Boeing · PADF",
+        "date": "Expo STEAM 2026",
+        "description": "Award received at Expo STEAM Virtual 2026 for the project 'Inundación en Villa Santa Rita' (Santa Rita Verde), recognizing its ecological impact and urban storm-water mitigation design."
+      }
+    }
   },
   "skills": {
     "heading": "Skills",
@@ -38,15 +81,19 @@
     "heading": "Featured Projects",
     "gie": {
       "title": "GIE — School Reports Management",
-      "description": "I collaborated in a development team to build GIE (Gestor de Informes Escolares), an application designed for the administration and tracking of student-related reports. The system manages the history and timeline of each report, records its progression, and controls the step-by-step escalation to the different responsible school authorities, facilitating full traceability and comprehensive follow-up of each case."
+      "description": "Collaborated in a development team to build GIE (Gestor de Informes Escolares), an application designed for managing and tracking student-related incident reports. The system provides historical tracking, timeline records, and automated progressive escalation across responsible school authorities for complete case oversight."
     },
-    "database": {
-      "title": "Database: Student Management",
-      "description": "Relational system for school management (students, teachers, absences and behavior). Includes advanced queries, views, stored functions, cursors, triggers and privilege control by user role."
+    "nexus": {
+      "title": "Nexus — Master School Database & Gateway",
+      "description": "Centralized educational data layer with a Spring Boot (Java 17) and PostgreSQL backend. Features a secure API Gateway with JWT tokens and table-level read-only API keys to connect satellite applications (such as GIE) without exposing database credentials, along with an administrative web explorer."
+    },
+    "aerohack": {
+      "title": "Santa Rita Verde — AeroHack Joven",
+      "description": "Interactive web platform developed for the AeroHack Joven competition (Ciencia Joven Foundation, Boeing, PADF, and STEM Americas), awarded Best Project with Environmental Focus. Features an urban green infrastructure proposal with interactive before/after comparison sliders, hydrological modeling, and risk area maps."
     },
     "homelab": {
       "title": "Home Homelab",
-      "description": "Self-managed home server for service virtualization and application deployment in its own controlled environment, ensuring privacy and continuous experimentation."
+      "description": "Self-managed home server for service virtualization and application deployment in a private, controlled environment for continuous testing and system experimentation."
     }
   },
   "contact": {

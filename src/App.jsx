@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import ParticlesBackground from './components/ParticlesBackground/ParticlesBackground';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
+import Education from './components/Education/Education';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import SoftSkills from './components/SoftSkills/SoftSkills';
@@ -21,6 +22,7 @@ function App() {
         <main>
           <Hero />
           <About />
+          <Education />
           <Skills />
           <Projects />
           <SoftSkills />

@@ -2,6 +2,7 @@
   "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
+    "education": "Estudios",
     "skills": "Habilidades",
     "projects": "Proyectos",
     "softSkills": "Blandas",
@@ -10,14 +11,56 @@
   "hero": {
     "title": "Tiziano Espinoza",
     "subtitle": "Técnico en Computación · Desarrollador Full Stack",
-    "tagline": "Desarrollo Web · HTML · CSS · JavaScript · React · SQL",
+    "tagline": "Desarrollo Web · HTML · CSS · JavaScript · React · SQL · Java · Spring Boot",
     "viewProjects": "Ver proyectos",
     "downloadCV": "Descargar CV"
   },
   "about": {
     "heading": "Sobre mí",
-    "paragraph1": "Soy un casi Técnico en Computación, me interesa la tecnología desde niño. Mi curiosidad me llevó desde la reparación de hardware hasta montar mi propio homelab personal con Linux para el hosting de servicios con docker.",
-    "paragraph2": "En la programación, he desempeñado tareas de backend orientadas en su mayor parte a bases de datos relacionales y su aplicación en sistemas web."
+    "paragraph1": "Soy estudiante de 6to año de Técnico en Computación, apasionado por la tecnología y el desarrollo de software. Mi curiosidad me llevó desde la reparación y comprensión del hardware hasta montar mi propio homelab personal con Linux para el hosting de servicios y contenedores con Docker.",
+    "paragraph2": "En la programación, me especializo en desarrollo backend, diseño e implementación de bases de datos relacionales robustas, arquitectura de sistemas y aplicaciones web modernas."
+  },
+  "education": {
+    "heading": "Educación y Certificaciones",
+    "certificationsHeading": "Certificaciones y Reconocimientos",
+    "viewCertificate": "Ver credencial",
+    "badges": {
+      "cert": "Certificación",
+      "award": "Distinción"
+    },
+    "school": {
+      "degree": "Técnico en Computación",
+      "institution": "E.E.S.T. N° 35 «Ing. Eduardo Latzina»",
+      "status": "6to año · En curso",
+      "description": "Formación técnica orientada al diseño y desarrollo de sistemas de software, arquitectura de computadoras, redes y telecomunicaciones, modelado y administración de bases de datos relacionales, y programación estructurada y orientada a objetos.",
+      "tags": [
+        "Arquitectura de Software",
+        "Bases de Datos Relacionales",
+        "Redes y Servidores",
+        "POO",
+        "Desarrollo Web"
+      ]
+    },
+    "certs": {
+      "python": {
+        "title": "Análisis de Datos en Python",
+        "issuer": "Student Chapter IEEE ITBA · Globant",
+        "date": "Junio 2026",
+        "description": "Capacitación intensiva en análisis de datos, estructuras en Python, manipulación estadística y visualización de datasets con buenas prácticas del sector."
+      },
+      "ai": {
+        "title": "IA-First — Fundamentos de IA",
+        "issuer": "Generación T · Streambe",
+        "date": "Julio 2026",
+        "description": "Formación en conceptos fundamentales de inteligencia artificial, paradigmas IA-first, modelos de lenguaje y su aplicación en flujos de trabajo e ingeniería de software."
+      },
+      "aerohack": {
+        "title": "Mejor Proyecto con Enfoque Ambiental",
+        "issuer": "AeroHack Joven · Fundación Ciencia Joven · Boeing · PADF",
+        "date": "Expo STEAM 2026",
+        "description": "Distinción obtenida en la Expo STEAM Virtual 2026 por el proyecto 'Inundación en Villa Santa Rita' (Santa Rita Verde), destacando el impacto ecológico y la propuesta técnica de mitigación pluvial."
+      }
+    }
   },
   "skills": {
     "heading": "Habilidades",
@@ -40,9 +83,13 @@
       "title": "GIE — Gestión de Informes Escolares",
       "description": "Colaboré en un equipo de desarrollo para la creación de GIE (Gestor de Informes Escolares), una aplicación destinada a la administración y seguimiento de informes relacionados con los alumnos. El sistema permite gestionar el historial y la cronología de cada informe, registrar su evolución y controlar la derivación progresiva hacia las distintas autoridades escolares responsables, facilitando la trazabilidad y el seguimiento integral de cada caso."
     },
-    "database": {
-      "title": "Base de Datos: Gestión de Alumnos",
-      "description": "Sistema relacional para gestión escolar (alumnos, docentes, faltas y conducta). Incluye consultas avanzadas, vistas, funciones almacenadas, cursores, triggers y control de privilegios por rol de usuario."
+    "nexus": {
+      "title": "Nexus — Base de Datos Escolar Maestra & Gateway",
+      "description": "Capa central de datos para instituciones educativas con backend en Spring Boot (Java 17) y PostgreSQL. Provee un API Gateway seguro con autenticación JWT y API keys con permisos granulares de solo lectura por tabla para conectar sistemas externos (como GIE) sin exponer credenciales, junto con un buscador web de administración."
+    },
+    "aerohack": {
+      "title": "Santa Rita Verde — AeroHack Joven",
+      "description": "Plataforma web interactiva desarrollada para el certamen AeroHack Joven (Fundación Ciencia Joven, Boeing, PADF y STEM Americas), galardonada como Mejor Proyecto con Enfoque Ambiental. Presenta una propuesta integral de infraestructura verde urbana para Villa Santa Rita con comparador interactivo antes/después, corte hidrológico y mapa de áreas críticas."
     },
     "homelab": {
       "title": "Homelab Casero",

@@ -14,14 +14,18 @@ export default function Projects() {
       repoUrl: 'https://github.com/Hung-Nicolas/GIE'
     },
     {
-      id: 'database',
-      tags: ['SQL', 'Relational DB', 'Architecture'],
-      repoUrl: ''
+      id: 'nexus',
+      tags: ['Spring Boot', 'Java 17', 'PostgreSQL', 'Docker', 'API Gateway'],
+      repoUrl: 'https://github.com/Hung-Nicolas/Nexus'
+    },
+    {
+      id: 'aerohack',
+      tags: ['JavaScript', 'HTML5 / CSS3', 'Design Thinking', 'Urbanismo'],
+      liveUrl: 'https://tixiano70.github.io/aerohack/'
     },
     {
       id: 'homelab',
-      tags: ['Linux', 'Docker', 'Networking'],
-      repoUrl: ''
+      tags: ['Linux', 'Docker', 'Networking']
     }
   ];
 
@@ -58,6 +62,7 @@ export default function Projects() {
             tags={project.tags}
             image={project.image}
             repoUrl={project.repoUrl}
+            liveUrl={project.liveUrl}
           />
         ))}
       </div>
