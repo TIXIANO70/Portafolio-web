@@ -10,7 +10,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t } = useLanguage();
   
-  const sectionIds = ['hero', 'about', 'skills', 'projects', 'soft-skills', 'contact'];
+  const sectionIds = ['hero', 'about', 'education', 'skills', 'projects', 'soft-skills', 'contact'];
   const activeSection = useScrollSpy(sectionIds, 150);
 
   useEffect(() => {
@@ -31,6 +31,7 @@ export default function Navbar() {
         <ul className={`${styles.navLinks} ${isMenuOpen ? styles.open : ''}`}>
           <li><a href="#hero" className={activeSection === 'hero' ? styles.active : ''} onClick={closeMenu}>{t('nav.home')}</a></li>
           <li><a href="#about" className={activeSection === 'about' ? styles.active : ''} onClick={closeMenu}>{t('nav.about')}</a></li>
+          <li><a href="#education" className={activeSection === 'education' ? styles.active : ''} onClick={closeMenu}>{t('nav.education')}</a></li>
           <li><a href="#skills" className={activeSection === 'skills' ? styles.active : ''} onClick={closeMenu}>{t('nav.skills')}</a></li>
           <li><a href="#projects" className={activeSection === 'projects' ? styles.active : ''} onClick={closeMenu}>{t('nav.projects')}</a></li>
           <li><a href="#soft-skills" className={activeSection === 'soft-skills' ? styles.active : ''} onClick={closeMenu}>{t('nav.softSkills')}</a></li>
