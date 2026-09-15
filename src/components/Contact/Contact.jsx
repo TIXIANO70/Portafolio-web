@@ -6,6 +6,7 @@ export default function Contact() {
   const { t } = useLanguage();
   const sectionRef = useRef(null);
   const [emailLink, setEmailLink] = useState('');
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     // Anti-scraping technique
@@ -31,6 +32,15 @@ export default function Contact() {
     return () => observer.disconnect();
   }, []);
 
+  const handleCopyEmail = (e) => {
+    e.preventDefault();
+    const email = "espinozatiziano3007@gmail.com";
+    navigator.clipboard.writeText(email).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    });
+  };
+
   return (
     <section id="contact" className={`section-reveal ${styles.contactSection}`} ref={sectionRef}>
       <div className={`glass-panel ${styles.contactContainer}`}>
@@ -43,10 +53,29 @@ export default function Contact() {
           <a href={emailLink} className={styles.contactBtn}>
             <i className="ph-fill ph-envelope"></i> Email
           </a>
-          <a href="https://www.linkedin.com/in/tiziano-espinoza-rodriguez-b551283a3/" target="_blank" rel="noopener noreferrer" className={styles.contactBtn}>
+          <button 
+            type="button" 
+            onClick={handleCopyEmail} 
+            className={styles.contactBtn}
+            title={t('contact.copyEmail')}
+          >
+            <i className={`ph-bold ${copied ? 'ph-check' : 'ph-copy'}`}></i>
+            {copied ? t('contact.copied') : t('contact.copyEmail')}
+          </button>
+          <a 
+            href="https://www.linkedin.com/in/tiziano-espinoza-rodriguez-b551283a3/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className={styles.contactBtn}
+          >
             <i className="devicon-linkedin-plain"></i> LinkedIn
           </a>
-          <a href="https://github.com/TIXIANO70" target="_blank" rel="noopener noreferrer" className={styles.contactBtn}>
+          <a 
+            href="https://github.com/TIXIANO70" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className={styles.contactBtn}
+          >
             <i className="devicon-github-original"></i> GitHub
           </a>
         </div>

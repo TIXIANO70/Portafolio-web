@@ -9,16 +9,26 @@
     "contact": "Contact"
   },
   "hero": {
+    "statusBadge": "Available for projects & internships",
     "title": "Tiziano Espinoza",
     "subtitle": "Computer Technician · Full Stack Developer",
-    "tagline": "Web Development · HTML · CSS · JavaScript · React · SQL · Java · Spring Boot",
+    "tagline": "Specialized in robust backend architectures, secure APIs, and modern web systems.",
     "viewProjects": "View Projects",
-    "downloadCV": "Download CV"
+    "downloadCV": "Download CV",
+    "contactMe": "Contact Me"
   },
   "about": {
     "heading": "About me",
-    "paragraph1": "I am a 6th-year Computer Technician student, passionate about technology and software development. My curiosity led me from hardware repair and diagnostics to building my own personal Linux homelab for hosting services and containerized environments with Docker.",
-    "paragraph2": "In programming, I specialize in backend development, designing and implementing robust relational database architectures, and engineering modern web systems."
+    "paragraph1": "I am a 6th-year Computer Technician student, passionate about technology and software engineering. My curiosity led me from hardware diagnostics to building my own personal Linux homelab for self-hosting services and containerized environments with Docker.",
+    "paragraph2": "In programming, I specialize in backend development, designing and implementing robust relational database architectures, engineering secure APIs, and building interactive web applications.",
+    "highlights": {
+      "degree": "6th Year Tech Student",
+      "degreeSub": "E.T. N° 35 «Ing. E. Latzina»",
+      "focus": "Backend & Architecture",
+      "focusSub": "Java Spring Boot · PostgreSQL · Docker",
+      "award": "STEAM 2026 Award Winner",
+      "awardSub": "Ciencia Joven Foundation & Boeing"
+    }
   },
   "education": {
     "heading": "Education & Certifications",
@@ -63,9 +73,13 @@
     }
   },
   "skills": {
-    "heading": "Skills",
+    "heading": "Technical Skills",
+    "backend": "Backend & Databases",
+    "frontend": "Frontend & UI",
+    "devops": "DevOps, Linux & Infrastructure",
     "advanced": "Advanced",
-    "intermediate": "Intermediate"
+    "intermediate": "Intermediate",
+    "familiar": "In Training"
   },
   "softSkills": {
     "heading": "Soft Skills",
@@ -79,29 +93,54 @@
   },
   "projects": {
     "heading": "Featured Projects",
+    "viewGallery": "View gallery & details",
+    "liveDemo": "View Live Demo",
+    "githubRepo": "GitHub Repository",
+    "closeModal": "Close modal",
+    "screenshots": "screenshots",
+    "galleryTitle": "Screenshots Gallery",
+    "techStackTitle": "Key Technologies",
+    "roleTitle": "Role & Contributions",
+    "badges": {
+      "gie": "👥 Team Project",
+      "nexus": "⚡ Backend & Gateway",
+      "aerohack": "🏆 STEAM 2026 Award",
+      "homelab": "🐧 Infrastructure & Linux"
+    },
     "gie": {
       "title": "GIE — School Reports Management",
-      "description": "Collaborated in a development team to build GIE (Gestor de Informes Escolares), an application designed for managing and tracking student-related incident reports. The system provides historical tracking, timeline records, and automated progressive escalation across responsible school authorities for complete case oversight."
+      "subtitle": "Comprehensive platform for incident tracking, timeline history, and escalation workflows.",
+      "description": "Collaborated in a development team to build GIE (Gestor de Informes Escolares), an application designed for managing and tracking student-related incident reports. The system provides historical tracking, timeline records, and automated progressive escalation across responsible school authorities for complete case oversight.",
+      "role": "Full Stack development, relational database modeling in MySQL, and UI design for report administration and escalation timeline."
     },
     "nexus": {
       "title": "Nexus — Master School Database & Gateway",
-      "description": "Centralized educational data layer with a Spring Boot (Java 17) and PostgreSQL backend. Features a secure API Gateway with JWT tokens and table-level read-only API keys to connect satellite applications (such as GIE) without exposing database credentials, along with an administrative web explorer."
+      "subtitle": "Centralized secure data layer with Spring Boot, JWT, API Keys, and PostgreSQL.",
+      "description": "Centralized educational data layer with a Spring Boot (Java 17) and PostgreSQL backend. Features a secure API Gateway with JWT tokens and table-level read-only API keys to connect satellite applications (such as GIE) without exposing database credentials, along with an administrative web explorer.",
+      "role": "Complete backend architecture in Spring Boot, PostgreSQL relational schema design, Spring Security / JWT implementation, and administrative web search explorer."
     },
     "aerohack": {
       "title": "Santa Rita Verde — AeroHack Joven",
-      "description": "Interactive web platform developed for the AeroHack Joven competition (Ciencia Joven Foundation, Boeing, PADF, and STEM Americas), awarded Best Project with Environmental Focus. Features an urban green infrastructure proposal with interactive before/after comparison sliders, hydrological modeling, and risk area maps."
+      "subtitle": "Award-winning urban green infrastructure web platform for Expo STEAM 2026.",
+      "description": "Interactive web platform developed for the AeroHack Joven competition (Ciencia Joven Foundation, Boeing, PADF, and STEM Americas), awarded Best Project with Environmental Focus. Features an urban green infrastructure proposal with interactive before/after comparison sliders, hydrological modeling, and risk area maps.",
+      "role": "Interactive web development, impactful UI design, interactive before/after street comparison slider, and geographical risk mapping."
     },
     "homelab": {
       "title": "Home Homelab",
-      "description": "Self-managed home server for service virtualization and application deployment in a private, controlled environment for continuous testing and system experimentation."
+      "subtitle": "Self-managed Linux server with Docker container orchestration and local networking.",
+      "description": "Self-managed home server for service virtualization and application deployment in a private, controlled environment for continuous testing and system experimentation.",
+      "role": "Linux Server setup and administration, Docker containerized service deployment and orchestration, backup automation, and secure local networking."
     }
   },
   "contact": {
     "heading": "Contact",
-    "text": "Are you interested in my profile or want to chat about a project? Let's talk!"
+    "text": "Are you interested in my profile or want to chat about a project? Let's talk!",
+    "copyEmail": "Copy email",
+    "copied": "Email copied!"
   },
   "footer": {
     "name": "Tiziano Espinoza.",
-    "downloadCV": "Download CV"
+    "downloadCV": "Download CV",
+    "rights": "All rights reserved."
   }
 }

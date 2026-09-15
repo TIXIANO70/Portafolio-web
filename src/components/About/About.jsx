@@ -31,8 +31,43 @@ export default function About() {
         <i className="ph-bold ph-user"></i> {t('about.heading')}
       </h2>
       <div className={`glass-panel ${styles.aboutContent}`}>
-        <p>{t('about.paragraph1')}</p>
-        <p>{t('about.paragraph2')}</p>
+        <div className={styles.aboutBio}>
+          <p>{t('about.paragraph1')}</p>
+          <p>{t('about.paragraph2')}</p>
+        </div>
+
+        {/* Highlights Strip */}
+        <div className={styles.highlightsGrid}>
+          <div className={styles.highlightCard}>
+            <div className={styles.highlightIcon}>
+              <i className="ph-bold ph-graduation-cap"></i>
+            </div>
+            <div className={styles.highlightText}>
+              <span className={styles.highlightTitle}>{t('about.highlights.degree')}</span>
+              <span className={styles.highlightSub}>{t('about.highlights.degreeSub')}</span>
+            </div>
+          </div>
+
+          <div className={styles.highlightCard}>
+            <div className={styles.highlightIcon}>
+              <i className="ph-bold ph-cpu"></i>
+            </div>
+            <div className={styles.highlightText}>
+              <span className={styles.highlightTitle}>{t('about.highlights.focus')}</span>
+              <span className={styles.highlightSub}>{t('about.highlights.focusSub')}</span>
+            </div>
+          </div>
+
+          <div className={styles.highlightCard}>
+            <div className={styles.highlightIcon}>
+              <i className="ph-bold ph-trophy"></i>
+            </div>
+            <div className={styles.highlightText}>
+              <span className={styles.highlightTitle}>{t('about.highlights.award')}</span>
+              <span className={styles.highlightSub}>{t('about.highlights.awardSub')}</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

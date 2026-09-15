@@ -9,16 +9,26 @@
     "contact": "Contacto"
   },
   "hero": {
+    "statusBadge": "Disponible para proyectos y pasantías",
     "title": "Tiziano Espinoza",
     "subtitle": "Técnico en Computación · Desarrollador Full Stack",
-    "tagline": "Desarrollo Web · HTML · CSS · JavaScript · React · SQL · Java · Spring Boot",
+    "tagline": "Especializado en arquitecturas backend robustas, APIs seguras y desarrollo web moderno.",
     "viewProjects": "Ver proyectos",
-    "downloadCV": "Descargar CV"
+    "downloadCV": "Descargar CV",
+    "contactMe": "Contactar"
   },
   "about": {
     "heading": "Sobre mí",
-    "paragraph1": "Soy estudiante de 6to año de Técnico en Computación, apasionado por la tecnología y el desarrollo de software. Mi curiosidad me llevó desde la reparación y comprensión del hardware hasta montar mi propio homelab personal con Linux para el hosting de servicios y contenedores con Docker.",
-    "paragraph2": "En la programación, me especializo en desarrollo backend, diseño e implementación de bases de datos relacionales robustas, arquitectura de sistemas y aplicaciones web modernas."
+    "paragraph1": "Soy estudiante de 6to año de Técnico en Computación, apasionado por la tecnología y la ingeniería de software. Mi curiosidad me llevó desde la comprensión del hardware hasta montar mi propio homelab personal con Linux para hosting y contenedores Docker.",
+    "paragraph2": "En programación, me especializo en desarrollo backend, diseño e implementación de bases de datos relacionales robustas, arquitectura de APIs seguras y construcción de aplicaciones web interactivas.",
+    "highlights": {
+      "degree": "6to Año Técnico",
+      "degreeSub": "E.T. N° 35 «Ing. E. Latzina»",
+      "focus": "Backend & Arquitectura",
+      "focusSub": "Java Spring Boot · PostgreSQL · Docker",
+      "award": "Distinción STEAM 2026",
+      "awardSub": "Fundación Ciencia Joven & Boeing"
+    }
   },
   "education": {
     "heading": "Educación y Certificaciones",
@@ -63,9 +73,13 @@
     }
   },
   "skills": {
-    "heading": "Habilidades",
+    "heading": "Habilidades Técnicas",
+    "backend": "Backend & Bases de Datos",
+    "frontend": "Frontend & UI",
+    "devops": "DevOps, Linux & Infraestructura",
     "advanced": "Avanzado",
-    "intermediate": "Intermedio"
+    "intermediate": "Intermedio",
+    "familiar": "En formación"
   },
   "softSkills": {
     "heading": "Habilidades blandas",
@@ -79,29 +93,54 @@
   },
   "projects": {
     "heading": "Proyectos destacados",
+    "viewGallery": "Ver galería y detalles",
+    "liveDemo": "Ver demo en vivo",
+    "githubRepo": "Repositorio GitHub",
+    "closeModal": "Cerrar modal",
+    "screenshots": "capturas",
+    "galleryTitle": "Galería de Capturas",
+    "techStackTitle": "Stack Tecnológico",
+    "roleTitle": "Rol y Aportes",
+    "badges": {
+      "gie": "👥 Trabajo en Equipo",
+      "nexus": "⚡ Backend & Gateway",
+      "aerohack": "🏆 Distinción STEAM 2026",
+      "homelab": "🐧 Infraestructura & Linux"
+    },
     "gie": {
       "title": "GIE — Gestión de Informes Escolares",
-      "description": "Colaboré en un equipo de desarrollo para la creación de GIE (Gestor de Informes Escolares), una aplicación destinada a la administración y seguimiento de informes relacionados con los alumnos. El sistema permite gestionar el historial y la cronología de cada informe, registrar su evolución y controlar la derivación progresiva hacia las distintas autoridades escolares responsables, facilitando la trazabilidad y el seguimiento integral de cada caso."
+      "subtitle": "Plataforma integral para gestión, historial y derivación de casos escolares.",
+      "description": "Colaboré en un equipo de desarrollo para la creación de GIE (Gestor de Informes Escolares), una aplicación destinada a la administración y seguimiento de informes relacionados con los alumnos. El sistema permite gestionar el historial y la cronología de cada informe, registrar su evolución y controlar la derivación progresiva hacia las distintas autoridades escolares responsables, facilitando la trazabilidad y el seguimiento integral de cada caso.",
+      "role": "Desarrollo Full Stack, modelado de base de datos relacional en MySQL y diseño de la interfaz de administración y timeline de derivaciones."
     },
     "nexus": {
       "title": "Nexus — Base de Datos Escolar Maestra & Gateway",
-      "description": "Capa central de datos para instituciones educativas con backend en Spring Boot (Java 17) y PostgreSQL. Provee un API Gateway seguro con autenticación JWT y API keys con permisos granulares de solo lectura por tabla para conectar sistemas externos (como GIE) sin exponer credenciales, junto con un buscador web de administración."
+      "subtitle": "Capa central de datos segura con Spring Boot, JWT, API Keys y PostgreSQL.",
+      "description": "Capa central de datos para instituciones educativas con backend en Spring Boot (Java 17) y PostgreSQL. Provee un API Gateway seguro con autenticación JWT y API keys con permisos granulares de solo lectura por tabla para conectar sistemas externos (como GIE) sin exponer credenciales de base de datos, junto con un buscador web de administración.",
+      "role": "Arquitectura completa del backend en Spring Boot, diseño de base de datos relacional PostgreSQL, seguridad con Spring Security / JWT y buscador administrativo."
     },
     "aerohack": {
       "title": "Santa Rita Verde — AeroHack Joven",
-      "description": "Plataforma web interactiva desarrollada para el certamen AeroHack Joven (Fundación Ciencia Joven, Boeing, PADF y STEM Americas), galardonada como Mejor Proyecto con Enfoque Ambiental. Presenta una propuesta integral de infraestructura verde urbana para Villa Santa Rita con comparador interactivo antes/después, corte hidrológico y mapa de áreas críticas."
+      "subtitle": "Propuesta de infraestructura verde urbana ganadora de la Expo STEAM 2026.",
+      "description": "Plataforma web interactiva desarrollada para el certamen AeroHack Joven (Fundación Ciencia Joven, Boeing, PADF y STEM Americas), galardonada como Mejor Proyecto con Enfoque Ambiental. Presenta una propuesta integral de infraestructura verde urbana para Villa Santa Rita con comparador interactivo antes/después, corte hidrológico y mapa de áreas críticas.",
+      "role": "Desarrollo del sitio web interactivo, diseño de interfaz con componentes visuales de impacto, comparador interactivo de calles y visualización cartográfica."
     },
     "homelab": {
       "title": "Homelab Casero",
-      "description": "Servidor doméstico autogestionado para virtualización de servicios y despliegue de aplicaciones en un entorno propio y controlado, asegurando privacidad y experimentación continua."
+      "subtitle": "Servidor Linux autogestionado con orquestación Docker y redes locales.",
+      "description": "Servidor doméstico autogestionado para virtualización de servicios y despliegue de aplicaciones en un entorno propio y controlado, asegurando privacidad y experimentación continua.",
+      "role": "Configuración y administración de Linux Server, despliegue y mantenimiento de servicios en Docker containers, gestión de backups y redes seguras."
     }
   },
   "contact": {
     "heading": "Contacto",
-    "text": "¿Te interesa mi perfil o querés charlar sobre algún proyecto? ¡Hablemos!"
+    "text": "¿Te interesa mi perfil o querés charlar sobre algún proyecto? ¡Hablemos!",
+    "copyEmail": "Copiar email",
+    "copied": "¡Email copiado!"
   },
   "footer": {
     "name": "Tiziano Espinoza.",
-    "downloadCV": "Descargar CV"
+    "downloadCV": "Descargar CV",
+    "rights": "Todos los derechos reservados."
   }
 }
