@@ -17,17 +17,14 @@ export default function Education() {
   const certificates = [
     {
       id: 'python',
-      file: 'assets/certificates/python_data_analysis_ieee_itba_globant.png',
       badgeType: 'cert'
     },
     {
       id: 'ai',
-      file: 'assets/certificates/ia_first_streambe_generacion_t.pdf',
       badgeType: 'cert'
     },
     {
       id: 'aerohack',
-      file: 'assets/certificates/aerohack_reconocimiento_ambiental.jpg',
       badgeType: 'award'
     }
   ];
@@ -100,14 +97,10 @@ export default function Education() {
             <p className={styles.certIssuer}>{t(`education.certs.${cert.id}.issuer`)}</p>
             <p className={styles.certDesc}>{t(`education.certs.${cert.id}.description`)}</p>
 
-            <a
-              href={cert.file}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.viewCertBtn}
-            >
-              <i className="ph-bold ph-arrow-square-out"></i> {t('education.viewCertificate')}
-            </a>
+            <div className={styles.verifiableBadge}>
+              <i className="ph-bold ph-shield-check"></i>
+              <span>{t('education.verifiable')}</span>
+            </div>
           </div>
         ))}
       </div>

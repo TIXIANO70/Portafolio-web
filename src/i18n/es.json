@@ -33,7 +33,7 @@
   "education": {
     "heading": "Educación y Certificaciones",
     "certificationsHeading": "Certificaciones y Reconocimientos",
-    "viewCertificate": "Ver credencial",
+    "verifiable": "Verificable a solicitud",
     "badges": {
       "cert": "Certificación",
       "award": "Distinción"
