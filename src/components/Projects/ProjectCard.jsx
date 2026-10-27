@@ -12,6 +12,8 @@ export default function ProjectCard({ project, onOpenModal }) {
         return styles.badgeArchitecture;
       case 'gie':
         return styles.badgeTeamwork;
+      case 'navathon':
+        return styles.badgeIot;
       case 'homelab':
       default:
         return styles.badgeInfrastructure;

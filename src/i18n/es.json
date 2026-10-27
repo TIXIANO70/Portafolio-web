@@ -64,6 +64,12 @@
         "date": "Julio 2026",
         "description": "Formación en conceptos fundamentales de inteligencia artificial, paradigmas IA-first, modelos de lenguaje y su aplicación en flujos de trabajo e ingeniería de software."
       },
+      "navathon": {
+        "title": "Navathon III — Hackathon de Innovación",
+        "issuer": "Navathon · Grupo 1 (Caviahue-Copahue)",
+        "date": "Octubre 2026",
+        "description": "Desarrollo del nodo sensor ambiental y clasificador de riesgo de incendios para Caviahue-Copahue, integrando microcontroladores, APIs REST en Flask, SQLite y webhooks multihilo de eventos críticos."
+      },
       "aerohack": {
         "title": "Mejor Proyecto con Enfoque Ambiental",
         "issuer": "AeroHack Joven · Fundación Ciencia Joven · Boeing · PADF",
@@ -104,8 +110,15 @@
     "badges": {
       "gie": "👥 Trabajo en Equipo",
       "nexus": "⚡ Backend & Gateway",
+      "navathon": "🔥 IoT & API Gateway",
       "aerohack": "🏆 Distinción STEAM 2026",
       "homelab": "🐧 Infraestructura & Linux"
+    },
+    "navathon": {
+      "title": "Nodo de Monitoreo & Riesgo de Incendios — Navathon III",
+      "subtitle": "Sistema IoT desacoplado para telemetría ambiental y clasificación de riesgo en Caviahue-Copahue.",
+      "description": "Solución técnica integral desarrollada en equipo durante la competencia Navathon III (2026) para la detección temprana y evaluación del riesgo de incendios forestales en el ecosistema cordillerano de Caviahue-Copahue. El sistema recolecta telemetría micrometeorológica en tiempo real (temperatura, humedad relativa, viento y humo), evalúa índices de combustibilidad fina bajo la Regla Cordillerana 25-25-30, almacena series temporales en SQLite y normaliza los datos bajo un esquema estándar JSON v1.0.0 consumido por tableros integradores centrales y sistemas de alertas comunitarias.",
+      "role": "Diseño y desarrollo integral de la capa de APIs y persistencia: arquitectura del servidor de ingesta de sensores (bd.py en Flask), modelado de base de datos relacional SQLite, desarrollo del API Gateway y normalizador de telemetría (api_sender.py), resolución dinámica de CORS para redes privadas/puntos de acceso y worker multihilo en segundo plano para despacho automático de webhooks ante eventos críticos."
     },
     "gie": {
       "title": "GIE — Gestión de Informes Escolares",

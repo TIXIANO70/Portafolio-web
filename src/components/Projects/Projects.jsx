@@ -24,6 +24,17 @@ export default function Projects() {
       repoUrl: 'https://github.com/Hung-Nicolas/Nexus'
     },
     {
+      id: 'navathon',
+      image: 'assets/projects/navathon/01_telemetria_en_vivo.png',
+      images: [
+        'assets/projects/navathon/01_telemetria_en_vivo.png',
+        'assets/projects/navathon/02_ecosistema_y_riesgo.png',
+        'assets/projects/navathon/03_registro_de_eventos.png'
+      ],
+      tags: ['Python', 'Flask', 'REST API', 'SQLite', 'IoT / Telemetría', 'Webhooks'],
+      repoUrl: 'https://github.com/TIXIANO70/Nodo-incendios_Navathon'
+    },
+    {
       id: 'gie',
       image: 'assets/projects/gie/gie_dashboard.png',
       images: [
@@ -45,14 +56,6 @@ export default function Projects() {
       ],
       tags: ['JavaScript', 'HTML5 / CSS3', 'Design Thinking', 'Urbanismo'],
       liveUrl: 'https://tixiano70.github.io/aerohack/'
-    },
-    {
-      id: 'homelab',
-      image: 'assets/projects/homelab/homelab_preview.jpg',
-      images: [
-        'assets/projects/homelab/homelab_preview.jpg'
-      ],
-      tags: ['Linux Server', 'Docker Compose', 'Self-Hosting', 'Networking']
     }
   ];
 

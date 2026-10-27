@@ -24,6 +24,10 @@ export default function Education() {
       badgeType: 'cert'
     },
     {
+      id: 'navathon',
+      badgeType: 'award'
+    },
+    {
       id: 'aerohack',
       badgeType: 'award'
     }

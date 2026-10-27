@@ -36,6 +36,10 @@
   --badge-team-text: #047857;
   --badge-team-border: rgba(16, 185, 129, 0.25);
   
+  --badge-iot-bg: rgba(234, 88, 12, 0.12);
+  --badge-iot-text: #C2410C;
+  --badge-iot-border: rgba(234, 88, 12, 0.28);
+  
   /* Sombras */
   --shadow-soft: 0 10px 30px rgba(61, 43, 31, 0.06), 0 1px 3px rgba(61, 43, 31, 0.04);
   --shadow-hover: 0 16px 40px rgba(194, 98, 45, 0.15), 0 2px 6px rgba(194, 98, 45, 0.08);
@@ -89,6 +93,10 @@
   --badge-team-bg: rgba(52, 211, 153, 0.15);
   --badge-team-text: #34D399;
   --badge-team-border: rgba(52, 211, 153, 0.3);
+  
+  --badge-iot-bg: rgba(249, 115, 22, 0.15);
+  --badge-iot-text: #FB923C;
+  --badge-iot-border: rgba(249, 115, 22, 0.32);
   
   /* Sombras */
   --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3);

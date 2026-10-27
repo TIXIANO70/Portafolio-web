@@ -100,6 +100,12 @@
   border: 1px solid var(--badge-team-border);
 }
 
+.badgeIot {
+  background: var(--badge-iot-bg);
+  color: var(--badge-iot-text);
+  border: 1px solid var(--badge-iot-border);
+}
+
 .badgeInfrastructure {
   background: var(--color-accent-light);
   color: var(--color-accent);

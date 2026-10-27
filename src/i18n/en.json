@@ -64,6 +64,12 @@
         "date": "July 2026",
         "description": "Comprehensive foundation in Artificial Intelligence concepts, AI-First paradigms, language models, and their practical application in software engineering."
       },
+      "navathon": {
+        "title": "Navathon III — Innovation Hackathon",
+        "issuer": "Navathon · Team 1 (Caviahue-Copahue)",
+        "date": "October 2026",
+        "description": "Development of a micrometeorological sensor node and wildfire risk assessment engine for Caviahue-Copahue, integrating microcontrollers, Flask REST APIs, SQLite, and multithreaded critical-event webhooks."
+      },
       "aerohack": {
         "title": "Best Project with Environmental Focus",
         "issuer": "AeroHack Joven · Fundación Ciencia Joven · Boeing · PADF",
@@ -104,8 +110,15 @@
     "badges": {
       "gie": "👥 Team Project",
       "nexus": "⚡ Backend & Gateway",
+      "navathon": "🔥 IoT & API Gateway",
       "aerohack": "🏆 STEAM 2026 Award",
       "homelab": "🐧 Infrastructure & Linux"
+    },
+    "navathon": {
+      "title": "Wildfire Monitoring Node & Risk Engine — Navathon III",
+      "subtitle": "Decoupled IoT system for environmental telemetry and wildfire risk assessment in Caviahue-Copahue.",
+      "description": "Comprehensive technical solution built collaboratively during the Navathon III (2026) hackathon for early wildfire detection and fuel dryness risk evaluation in the Caviahue-Copahue mountain ecosystem. The system captures real-time micrometeorological data (temperature, relative humidity, wind speed, smoke levels), computes fine dead fuel moisture metrics using the Cordilleran 25-25-30 model, persists historical time-series in SQLite, and normalizes telemetry into a unified v1.0.0 JSON schema for central dashboards and community alert networks.",
+      "role": "Complete design and implementation of the API and persistence layers: sensor ingestion HTTP server (bd.py in Flask), SQLite relational schema design, API Gateway and telemetry normalizer (api_sender.py), dynamic CORS handling for local private access points, and background daemon thread worker for automated critical-event webhook dispatching."
     },
     "gie": {
       "title": "GIE — School Reports Management",

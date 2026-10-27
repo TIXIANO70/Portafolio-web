@@ -10,6 +10,7 @@ const skillCategories = [
     skills: [
       { name: 'Java 17', icon: 'devicon-java-plain', level: 'intermediate' },
       { name: 'Spring Boot', icon: 'devicon-spring-original', level: 'intermediate' },
+      { name: 'Python', icon: 'devicon-python-plain', level: 'intermediate' },
       { name: 'PostgreSQL', icon: 'devicon-postgresql-plain', level: 'advanced' },
       { name: 'MySQL / SQL', icon: 'devicon-mysql-plain', level: 'advanced' },
       { name: 'Node.js', icon: 'devicon-nodejs-plain', level: 'intermediate' }
